@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>time</title>
+
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
+  <!--CSS-->
+  <link rel='stylesheet' href='time.css'>
+
+  <!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
+
+<!--firebase-->
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+
+    </head>
+
+
+    <body>
+        <!--header-->
+        <div class = "container">
+
+        </br>
+
+        <div class = 'banner'>
+            <div class="text-center">time sheet</div>
+        </div>
+        </div>
+
+    </br>
+
+    <!--time sheet table-->
+    <div class="container">
+        <div class="jumbotron text-center">current employees</div>
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>  
+                    <th scope="col">name</th>
+                    <th scope="col">role</th>
+                    <th scope="col">start date</th>
+                    <th scope="col">monthly rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>NAN</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>NAN</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>NAN</td>
+                  </tr>
+                </tbody>
+              </table>
+    </div>
+
+    </br>
+    <!--user info-->
+
+    <div class="container">
+        <div class= "jumbotron text-center">your info</div>
+        <div class= "input">
+            name: 
+        </br>
+            <input type="text" name="name">
+        </br>
+        role: 
+        </br>
+            <input type="text" name="role">
+        </br>
+            start date: 
+        </br>
+            <input type="text" name="start date">
+        </br>
+            monthly rate: 
+        </br>
+            <input type="text" name="monthly rate">
+        </br>
+    </br>
+    <div class="button">
+        <button type="button" class="btn btn-primary">submit</button>
+    </div>
+    
+
+
+        </div>
+        
+
+
+
+        
+        <script src = "time.js"></script>
+    </body>
+</html>

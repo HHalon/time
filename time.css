@@ -1,0 +1,22 @@
+.banner {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: black;
+  font-size: 40px;
+}
+
+.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  padding-right: 1px;
+  padding-left: 1px;
+  border-bottom-width: 1px;
+  padding-top: 1px;
+}
+.button {
+  float: right;
+}
